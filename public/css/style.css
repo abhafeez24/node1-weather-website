@@ -36,7 +36,9 @@ header {
 header h1 {
     text-align: center;
     font-size: 64px;
-    margin-bottom: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #cccccc;
 }
 #navbar{
     margin: auto;
@@ -60,7 +62,9 @@ header a:hover{
 }
 
 .portrait {
-    width: 250px;
+    display: block;
+    width: 500px;
+    margin: auto;
 }
 form {
     display: flex;

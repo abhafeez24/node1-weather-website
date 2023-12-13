@@ -41,7 +41,9 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help Section',
-    name: 'Abdul Hafeez'
+    name: 'Abdul Hafeez',
+    mobile: '+91 8983594874',
+    mail: 'abhafeez240302@gmail.com'
   })
 })
 
