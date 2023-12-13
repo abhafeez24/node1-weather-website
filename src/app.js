@@ -100,7 +100,9 @@ app.get('*', (req, res) => {
     name: 'Abdul Hafeez',
     errorMassage: 'Page Not Found'
   });
-})
+});
+
+
 app.listen(3000, () => {
   console.log("Listening to Port 3000.");
 });
